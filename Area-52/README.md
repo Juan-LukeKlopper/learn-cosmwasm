@@ -5,8 +5,8 @@ This is a subfolder where I follow along with the lessons provided by Area52.io,
 
 In this lesson, I'll get ourselves familiar with the basics of CosmWasm, focusing on the first entry point into a CosmWasm smart contract, 'instantiate'
 
-- [ ] A Gentle Intro to CosmWasm
-- [ ] CosmWasm Entry Points
+- [X] A Gentle Intro to CosmWasm
+- [X] CosmWasm Entry Points
 - [ ] Returning the Value of Instantiate
 - [ ] Entry Point Parameters
 - [ ] Storing State
