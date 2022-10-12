@@ -4,6 +4,8 @@
   - [<u>Entry points </u>](#uentry-points-u)
   - [<u>Returning the value of instantiate</u>](#ureturning-the-value-of-instantiateu)
   - [<u>Entry Point Parameters</u>](#uentry-point-parametersu)
+  - [<u>Storing State</u>](#ustoring-stateu)
+    - [Serialize and Deserialize](#serialize-and-deserialize)
 
 
 ## <u>Entry points </u>
@@ -67,3 +69,15 @@ which, as you might have deduced, allows you to read from storage. For writing t
 - `Env`, short for _environment_, provides information about the block and the transaction the message was executed in.
 
 - `MessageInfo` contains the sender's (that is, the caller of the contract method) address and funds sent along with the transaction.
+
+## <u>Storing State</u>
+
+While a smart contract can store information on the blockchain, that comes at a cost in the form of `gas and fees`, but this ability to store and compute on open data, that everybody can access, is what allows it to be decentralized.
+
+we create a `State` struct to store our basic information when the contract is initialized. This is typically done in a file named `state.rs` in your CosmWasm project.
+
+### Serialize and Deserialize
+
+We make use of the `Serde` framework to serialize and deserialize the Rust data structures. In our case, we need our upcoming `State` struct to store data in such a way that it's prepared for storing on the blockchain.
+
+`Serialize` and `Deserialize` From the Serde crate, are traits that need to be applied to the struct using the `derive` attribute.
