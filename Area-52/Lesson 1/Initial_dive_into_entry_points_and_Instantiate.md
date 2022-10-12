@@ -2,6 +2,7 @@
 
 - [An initial dive into entry points and instantiate](#an-initial-dive-into-entry-points-and-instantiate)
   - [<u>Entry points </u>](#uentry-points-u)
+  - [<u>Returning the value of instantiate</u>](#ureturning-the-value-of-instantiateu)
 
 
 ## <u>Entry points </u>
@@ -28,3 +29,27 @@ pub fn instantiate(...) -> ... {...}
 Instantiate is one of three such entry points into a smart contract. 
 It's used during deployment to initialize settings for a contract that's been stored on-chain, and create an address on the blockchain where the contract can be called.
 Maybe you recognize this pattern, as it's called a Constructor in many programming languages.
+
+## <u>Returning the value of instantiate</u>
+
+The instantiate entry point returns a Rust `Result`, taking a CosmWasm `Response` struct and an error type.
+
+`Response`
+The Response struct returns a few items that allow the contract to communicate back to the caller.
+It has several types in it for sending messages and data back.
+
+`Messages`
+CosmWasm is based on the `Actor Model` design pattern. 
+In this pattern, Actors do not talk directly to one another (i.e., do not call functions directly) but rather send messages to one another. 
+Here's a basic interface for the Actor model:
+
+```rust
+pub trait Actor {
+  fn handle(msgPayload: &[u8]) -> Vec<Msg>;
+}
+
+pub struct Msg {
+  pub destination: Vec<u8>,
+  pub payload: Vec<u8>,
+}
+```
