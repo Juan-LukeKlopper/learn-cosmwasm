@@ -1,6 +1,13 @@
 use serde::{Deserialize, Serialize};
+use cosmwasm_std::{Addr, Storage};
+use cosmwasm_storage::{ReadonlySingleton, Singleton};
 use universe::species::{SapienceScale, Sapient};
-use cosmwasm_std::{Addr};
+
+pub fn config(storage: &mut dyn Storage) -> Singleton<State> {
+}
+
+pub fn config_read(storage: &dyn Storage) -> ReadonlySingleton<State> {
+}
 
 #[derive(Serialize, Deserialize)]
 pub struct State {
