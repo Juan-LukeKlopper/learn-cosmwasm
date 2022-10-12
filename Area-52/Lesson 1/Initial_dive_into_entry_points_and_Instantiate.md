@@ -3,6 +3,7 @@
 - [An initial dive into entry points and instantiate](#an-initial-dive-into-entry-points-and-instantiate)
   - [<u>Entry points </u>](#uentry-points-u)
   - [<u>Returning the value of instantiate</u>](#ureturning-the-value-of-instantiateu)
+  - [<u>Entry Point Parameters</u>](#uentry-point-parametersu)
 
 
 ## <u>Entry points </u>
@@ -53,3 +54,16 @@ pub struct Msg {
   pub payload: Vec<u8>,
 }
 ```
+
+## <u>Entry Point Parameters</u>
+
+Our instantiate function takes four parameters: DepsMut, Env, MessageInfo and InstantiateMsg.
+
+The first three parameters are from the cosmwasm_std library, and the last one, InstantiateMsg, is a custom struct we will write ourselves.
+
+- `Deps`, short for _dependencies_, provides access to CW utilities such as persistent storage; 
+which, as you might have deduced, allows you to read from storage. For writing to storage you'll want the mutable version of this package, called `DepsMut`
+
+- `Env`, short for _environment_, provides information about the block and the transaction the message was executed in.
+
+- `MessageInfo` contains the sender's (that is, the caller of the contract method) address and funds sent along with the transaction.

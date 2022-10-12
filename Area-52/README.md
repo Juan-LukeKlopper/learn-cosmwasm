@@ -8,7 +8,7 @@ In this lesson, I'll get ourselves familiar with the basics of CosmWasm, focusin
 - [X] A Gentle Intro to CosmWasm
 - [X] CosmWasm Entry Points
 - [X] Returning the Value of Instantiate
-- [ ] Entry Point Parameters
+- [X] Entry Point Parameters
 - [ ] Storing State
 - [ ] Storing the Struct
 - [ ] Singleton and Storage
