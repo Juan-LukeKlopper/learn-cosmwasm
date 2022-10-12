@@ -6,6 +6,8 @@
   - [<u>Entry Point Parameters</u>](#uentry-point-parametersu)
   - [<u>Storing State</u>](#ustoring-stateu)
     - [Serialize and Deserialize](#serialize-and-deserialize)
+  - [<u>Storing the Struct</u>](#ustoring-the-structu)
+    - [CosmWasm Storage](#cosmwasm-storage)
 
 
 ## <u>Entry points </u>
@@ -81,3 +83,11 @@ we create a `State` struct to store our basic information when the contract is i
 We make use of the `Serde` framework to serialize and deserialize the Rust data structures. In our case, we need our upcoming `State` struct to store data in such a way that it's prepared for storing on the blockchain.
 
 `Serialize` and `Deserialize` From the Serde crate, are traits that need to be applied to the struct using the `derive` attribute.
+
+## <u>Storing the Struct</u>
+
+### CosmWasm Storage
+
+One of the parameters passed to `instantiate` is `deps: DepsMut;` it contains a member called `storage: Storage`. This is what we will be updating on the blockchain. We'll do it using the `Singleton` implementation from the `cosmwasm_storage` library.
+
+We'll have two separate functions — a write function, called `config`, and a read-only function called `config_read`. Conveniently, `cosmwasm_storage` provides two matching versions called `Singleton` and `ReadonlySingleton`.

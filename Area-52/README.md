@@ -10,7 +10,7 @@ In this lesson, I'll get ourselves familiar with the basics of CosmWasm, focusin
 - [X] Returning the Value of Instantiate
 - [X] Entry Point Parameters
 - [X] Storing State
-- [ ] Storing the Struct
+- [X] Storing the Struct
 - [ ] Singleton and Storage
 - [ ] Saving State to the Blockchain
 - [ ] The InstantiateMsg Type
