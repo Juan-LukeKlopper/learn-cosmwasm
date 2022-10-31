@@ -2,7 +2,7 @@
 This is a subfolder where I follow along with the lessons provided by academy.cosmwasm.com, These lessons will handle concepts from beginner to a high-intermediate difficulty.
 
 - [X] Introduction
-- [ ] Trivial contracts
+- [X] Trivial contracts
 - [ ] Queries
 - [ ] Testing basics
 - [ ] State Management

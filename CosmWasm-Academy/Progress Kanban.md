@@ -6,8 +6,6 @@ kanban-plugin: basic
 
 ## Todo
 
-- [ ] Trivial contracts
-- [ ] Queries
 - [ ] Testing basics
 - [ ] State Management
 - [ ] Executions
@@ -24,10 +22,12 @@ kanban-plugin: basic
 
 ## In Progress
 
+- [ ] Queries
 
 
 ## Completed
 
+- [ ] Trivial contracts
 
 
 
