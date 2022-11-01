@@ -27,7 +27,8 @@ kanban-plugin: basic
 
 ## Completed
 
-- [ ] Trivial contracts
+**Complete**
+- [x] Trivial contracts
 
 
 
