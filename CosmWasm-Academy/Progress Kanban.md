@@ -1,9 +1,11 @@
-# CosmWasm-Academy
-This is a subfolder where I follow along with the lessons provided by academy.cosmwasm.com, These lessons will handle concepts from beginner to a high-intermediate difficulty.
+---
 
-- [X] Introduction
-- [X] Trivial contracts
-- [ ] Queries
+kanban-plugin: basic
+
+---
+
+## Todo
+
 - [ ] Testing basics
 - [ ] State Management
 - [ ] Executions
@@ -17,3 +19,22 @@ This is a subfolder where I follow along with the lessons provided by academy.co
 - [ ] Version management
 - [ ] Calling external contracts
 
+
+## In Progress
+
+- [ ] Queries
+
+
+## Completed
+
+**Complete**
+- [x] Trivial contracts
+
+
+
+
+%% kanban:settings
+```
+{"kanban-plugin":"basic"}
+```
+%%
