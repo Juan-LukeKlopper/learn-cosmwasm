@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## Todo
 
-- [ ] Testing basics
 - [ ] State Management
 - [ ] Executions
 - [ ] Receiving funds
@@ -22,13 +21,14 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] Queries
+- [ ] Testing basics
 
 
 ## Completed
 
 **Complete**
 - [x] Trivial contracts
+- [x] Queries
 
 
 

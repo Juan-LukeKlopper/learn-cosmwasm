@@ -3,7 +3,7 @@ This is a subfolder where I follow along with the lessons provided by academy.co
 
 - [X] Introduction
 - [X] Trivial contracts
-- [ ] Queries
+- [x] Queries
 - [ ] Testing basics
 - [ ] State Management
 - [ ] Executions
