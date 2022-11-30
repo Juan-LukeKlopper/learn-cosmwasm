@@ -1,12 +1,12 @@
 # CosmWasm-Academy
-This is a subfolder where I follow along with the lessons provided by academy.cosmwasm.com, These lessons will handle concepts from beginner to a high-intermediate difficulty.
+This is a subfolder here I follow along with the lessons provided by academy.cosmwasm.com, These lessons will handle concepts from beginner to a high-intermediate difficulty.
 
 - [X] Introduction
 - [X] Trivial contracts
 - [x] Queries
-- [ ] Testing basics
-- [ ] State Management
-- [ ] Executions
+- [X] Contracts testing
+- [ ] The contract State
+- [ ] Execution entry point
 - [ ] Receiving funds
 - [ ] Sending funds
 - [ ] Errors handling
