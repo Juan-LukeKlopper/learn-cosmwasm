@@ -7,8 +7,8 @@ This is a subfolder here I follow along with the lessons provided by academy.cos
 - [X] Contracts testing
 - [X] The contract State
 - [X] Execution entry point
-- [ ] Receiving funds
-- [ ] Sending funds
+- [X] Receiving funds
+- [X] Sending funds
 - [ ] Errors handling
 - [ ] Generating Schema
 - [ ] Improving multitests
