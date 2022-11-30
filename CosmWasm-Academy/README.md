@@ -6,7 +6,7 @@ This is a subfolder here I follow along with the lessons provided by academy.cos
 - [x] Queries
 - [X] Contracts testing
 - [X] The contract State
-- [ ] Execution entry point
+- [X] Execution entry point
 - [ ] Receiving funds
 - [ ] Sending funds
 - [ ] Errors handling
