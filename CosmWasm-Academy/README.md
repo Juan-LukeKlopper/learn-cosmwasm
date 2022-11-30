@@ -5,7 +5,7 @@ This is a subfolder here I follow along with the lessons provided by academy.cos
 - [X] Trivial contracts
 - [x] Queries
 - [X] Contracts testing
-- [ ] The contract State
+- [X] The contract State
 - [ ] Execution entry point
 - [ ] Receiving funds
 - [ ] Sending funds
