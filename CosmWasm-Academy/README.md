@@ -9,7 +9,7 @@ This is a subfolder here I follow along with the lessons provided by academy.cos
 - [X] Execution entry point
 - [X] Receiving funds
 - [X] Sending funds
-- [ ] Errors handling
+- [X] Errors handling
 - [ ] Generating Schema
 - [ ] Improving multitests
 - [ ] Contract as a dependency
