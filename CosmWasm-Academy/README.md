@@ -10,7 +10,7 @@ This is a subfolder here I follow along with the lessons provided by academy.cos
 - [X] Receiving funds
 - [X] Sending funds
 - [X] Errors handling
-- [ ] Generating Schema
+- [X] Generating Schema
 - [ ] Improving multitests
 - [ ] Contract as a dependency
 - [ ] Migrations
