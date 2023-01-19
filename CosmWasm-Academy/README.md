@@ -11,7 +11,7 @@ This is a subfolder here I follow along with the lessons provided by academy.cos
 - [X] Sending funds
 - [X] Errors handling
 - [X] Generating Schema
-- [ ] Improving multitests
+- [X] Improving multitests
 - [ ] Contract as a dependency
 - [ ] Migrations
 - [ ] Version management
