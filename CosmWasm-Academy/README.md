@@ -6,12 +6,12 @@ This is a subfolder here I follow along with the lessons provided by academy.cos
 - [x] Queries
 - [X] Contracts testing
 - [X] The contract State
-- [ ] Execution entry point
-- [ ] Receiving funds
-- [ ] Sending funds
-- [ ] Errors handling
-- [ ] Generating Schema
-- [ ] Improving multitests
+- [X] Execution entry point
+- [X] Receiving funds
+- [X] Sending funds
+- [X] Errors handling
+- [X] Generating Schema
+- [X] Improving multitests
 - [ ] Contract as a dependency
 - [ ] Migrations
 - [ ] Version management
